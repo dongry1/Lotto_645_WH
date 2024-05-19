@@ -9,3 +9,15 @@
 [build]
 rustflags = ["-Z", "threads=4"]
 ```
+
+```c
+cargo run
+    # 645 Lotto.
+    # Large number would take a while and use your computing power a lot.
+    # This Program will generate 6 number between 1 and 45, Lotto Number.
+    # How many games do you want to generate?  
+2
+Your input is verified : 2
+1:{13, 16, 42, 14, 18, 41}
+2:{38, 24, 9, 22, 34, 6}
+```
