@@ -1,0 +1,11 @@
+[package]
+name = "eLotto_645_WH"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+rand = ">=0.8.5"
+
+
+[build]
+rustflags = ["-Z", "threads=4"]
